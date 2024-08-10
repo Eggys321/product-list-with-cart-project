@@ -35,12 +35,12 @@ body{
     /* font-weight: 600; */
 }
 .card-container{
-    position: relative;
+    /* position: relative; */
 }
 .card-btn{
-    position: absolute;
-    left: 44px;
-    top: 225px;
+    /* position: absolute;
+    left: 60px;
+    top: 225px; */
     /* top: 14rem; */
     
 }
@@ -52,8 +52,16 @@ body{
 
 .card-text{
     font-weight: 600;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 h6{
     color: var(--red);
 }
+
+@media (max-width: 575.98px) { 
+    .card-img-top{
+        height: 210px;
+    }
+ }
